@@ -1,0 +1,22 @@
+1- Graphql veio com um propósito de mudar a forma como fazemos uma requisição
+2- Podemos chamar um json apenas com o que queremos, ex:
+
+Request:
+
+hero {
+  name
+  height
+}
+
+Response:
+
+hero {
+  name: "Gustavo",
+  height: 1.70
+}
+
+3- Apenas um endpoint - Você fará tudo nesse endpoint (get, put, post, delete)
+/graphql
+
+4- O graphql é muito performático, porque ele chama apenas os dados necessários
+
